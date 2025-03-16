@@ -1,0 +1,14 @@
+# Why config.yaml? Instea of hardcoding the values directly into the code, config provides flexibility by defining the values seperately.
+# scalabilit, poratability, security and scalability.
+
+
+# what are we dng here? Everything is saved here
+artifacts_root: artifacts
+
+# Data ingestion related configuration
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/entbappy/Branching-tutorial/raw/master/summarizer-data.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
+
