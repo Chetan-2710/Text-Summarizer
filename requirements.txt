@@ -1,3 +1,5 @@
+accelerate
+accelerate --upgrade
 transformers
 transformers[sentencepiece]
 datasets
