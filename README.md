@@ -51,6 +51,7 @@ Clone the repository
 
 ```bash
 https://github.com/Chetan-2710/Text-Summarizer.git
+cd Text-Summarizer
 ```
 ### STEP 01- Create a virtual environment after opening the repository
 
